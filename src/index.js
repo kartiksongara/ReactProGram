@@ -1,12 +1,13 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import APP from "./APP";
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Img from './Img'
+import NB from './NB'
+import CARD from './CARD'
 ReactDOM.render(
 <>
-<APP/>
-
-
+{/* <Img/> */}
+<NB/>
+<CARD/>
 </>
-
-  ,document.getElementById("root")
+  ,document.querySelector("#root")
 )
