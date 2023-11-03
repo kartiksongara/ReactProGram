@@ -1,0 +1,58 @@
+body{
+    background-color: azure;
+}
+.box{
+    border-radius: 10px;
+    background-color: aqua;
+
+    
+}
+li{
+    text-align: left;
+}
+.box1{
+    border-radius: 10px;
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 1px 10px 10px black; 
+}
+.box2{
+    border-radius: 10px;
+    color:blue;
+    font-size: medium;
+    
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.box21{
+    border-radius: 10px;
+    color:brown;
+    font-size: medium;
+    
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+.btn{
+    box-shadow: 1px 1px 1px white;
+    background-color: black;
+    height: 50px;
+    width: 60px;
+    border-radius: 180px;
+
+}
+@media(max-width:1000px) and (min-width:300px){
+   .box0{
+border: 1px ;    
+}
+   
+    .box1{
+          font-size: 30px;    
+    }
+
+}
